@@ -1,0 +1,29 @@
+# TypeScript Learning Journey
+
+This repo contains my TypeScript practice while I learn the language and explore its core concepts.
+
+---
+
+## 05 March 2026
+
+Today I started learning TypeScript and focused on the fundamentals.
+
+**Topics I practiced**
+
+- Basic Types
+- Functions with type annotations
+- Union Types
+- Type Narrowing
+
+**Practice files**
+
+- basicTypes.ts
+- functions.ts
+- unionTypes.ts
+- narrowing.ts
+
+**What I learned**
+
+Got comfortable with basic type annotations and how TypeScript helps catch mistakes early.  
+Also practiced union types and simple narrowing using `typeof`.
+

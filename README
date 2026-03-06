@@ -27,3 +27,18 @@ Today I started learning TypeScript and focused on the fundamentals.
 Got comfortable with basic type annotations and how TypeScript helps catch mistakes early.  
 Also practiced union types and simple narrowing using `typeof`.
 
+
+
+## 06 March 2026
+
+Concepts Covered
+
+- any type
+- unknown type
+- void type
+- never type
+- type assertions
+
+Notes  
+Learned the difference between `any` and `unknown` and when each should be used.  
+Also understood how TypeScript handles functions with `void` and `never`, and how type assertions help when working with uncertain types.

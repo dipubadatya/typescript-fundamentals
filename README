@@ -1,44 +1,74 @@
-# TypeScript Learning Journey
-
-This repo contains my TypeScript practice while I learn the language and explore its core concepts.
 
 ---
 
-## 05 March 2026
+# TypeScript Learning Journey
 
-Today I started learning TypeScript and focused on the fundamentals.
+This repository documents my journey of learning TypeScript and practicing its core concepts through small examples and exercises.
 
-**Topics I practiced**
+---
 
-- Basic Types
-- Functions with type annotations
-- Union Types
-- Type Narrowing
+# 05 March 2026
 
-**Practice files**
+### Topics Covered
 
-- basicTypes.ts
-- functions.ts
-- unionTypes.ts
-- narrowing.ts
+* Basic Types
+* Functions with Type Annotations
+* Union Types
+* Type Narrowing
 
-**What I learned**
+### Practice Files
 
-Got comfortable with basic type annotations and how TypeScript helps catch mistakes early.  
-Also practiced union types and simple narrowing using `typeof`.
+```
+basicTypes.ts
+functions.ts
+unionTypes.ts
+narrowing.ts
+```
+
+### What I Learned
+
+* Learned how to use basic TypeScript type annotations.
+* Practiced defining types for function parameters and return values.
+* Understood how **Union Types** allow variables to hold multiple types.
+* Used **type narrowing with `typeof`** to safely work with union types.
+
+---
+
+# 06 March 2026
+
+### Topics Covered
+
+* `any` type
+* `unknown` type
+* `void` type
+* `never` type
+* Type Assertions
+
+### Practice Files
+
+```
+any.ts
+unknown.ts
+void.ts
+never.ts
+typeAssertions.ts
+```
+
+### What I Learned
+
+* Understood the difference between **`any` and `unknown`**, and why `unknown` is safer in most cases.
+* Learned how **`void`** is used in functions that do not return a value.
+* Explored the **`never`** type for functions that never complete normally (such as errors or infinite loops).
+* Practiced **Type Assertions** to explicitly tell TypeScript the type of a value when the compiler cannot infer it.
+
+---
 
 
 
-## 06 March 2026
+```
+## Goal
 
-Concepts Covered
+Practice TypeScript concepts daily and strengthen type-safe JavaScript development skills.
+```
 
-- any type
-- unknown type
-- void type
-- never type
-- type assertions
 
-Notes  
-Learned the difference between `any` and `unknown` and when each should be used.  
-Also understood how TypeScript handles functions with `void` and `never`, and how type assertions help when working with uncertain types.

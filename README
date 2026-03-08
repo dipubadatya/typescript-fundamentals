@@ -1,6 +1,3 @@
-
----
-
 # TypeScript Learning Journey
 
 This repository documents my journey of learning TypeScript and practicing its core concepts through small examples and exercises.
@@ -11,10 +8,10 @@ This repository documents my journey of learning TypeScript and practicing its c
 
 ### Topics Covered
 
-* Basic Types
-* Functions with Type Annotations
-* Union Types
-* Type Narrowing
+- Basic Types
+- Functions with Type Annotations
+- Union Types
+- Type Narrowing
 
 ### Practice Files
 
@@ -27,10 +24,10 @@ narrowing.ts
 
 ### What I Learned
 
-* Learned how to use basic TypeScript type annotations.
-* Practiced defining types for function parameters and return values.
-* Understood how **Union Types** allow variables to hold multiple types.
-* Used **type narrowing with `typeof`** to safely work with union types.
+- Learned how to use basic TypeScript type annotations.
+- Practiced defining types for function parameters and return values.
+- Understood how **Union Types** allow variables to hold multiple types.
+- Used **type narrowing with `typeof`** to safely work with union types.
 
 ---
 
@@ -38,11 +35,11 @@ narrowing.ts
 
 ### Topics Covered
 
-* `any` type
-* `unknown` type
-* `void` type
-* `never` type
-* Type Assertions
+- `any` type
+- `unknown` type
+- `void` type
+- `never` type
+- Type Assertions
 
 ### Practice Files
 
@@ -56,19 +53,43 @@ typeAssertions.ts
 
 ### What I Learned
 
-* Understood the difference between **`any` and `unknown`**, and why `unknown` is safer in most cases.
-* Learned how **`void`** is used in functions that do not return a value.
-* Explored the **`never`** type for functions that never complete normally (such as errors or infinite loops).
-* Practiced **Type Assertions** to explicitly tell TypeScript the type of a value when the compiler cannot infer it.
+- Understood the difference between **`any` and `unknown`**, and why `unknown` is safer in most cases.
+- Learned how **`void`** is used in functions that do not return a value.
+- Explored the **`never`** type for functions that never complete normally (such as errors or infinite loops).
+- Practiced **Type Assertions** to explicitly tell TypeScript the type of a value when the compiler cannot infer it.
 
 ---
 
+# 07 March 2026
 
+### Topics Covered
+
+- Objects in TypeScript
+- Arrays
+- Tuples
+- Enums
+- Functions (advanced usage)
+
+### Practice Files
 
 ```
+objects.ts
+arrays.ts
+tuples.ts
+enums.ts
+functionsAdvanced.ts
+```
+
+### What I Learned
+
+- How to define strict object shapes using TypeScript.
+- How arrays can enforce a specific data type.
+- The difference between arrays and tuples.
+- How enums help represent fixed sets of values.
+- How functions can have default parameters, optional parameters, and typed return values.
+
+---
+
 ## Goal
 
 Practice TypeScript concepts daily and strengthen type-safe JavaScript development skills.
-```
-
-

@@ -1,6 +1,4 @@
-"use strict";
 // Example: typing objects in TypeScript
-Object.defineProperty(exports, "__esModule", { value: true });
 const user1 = {
     id: 1,
     name: "Vijay",
@@ -11,4 +9,5 @@ function printUser(user) {
     console.log(`User: ${user.name} (${user.email})`);
 }
 printUser(user1);
+export {};
 //# sourceMappingURL=object.js.map

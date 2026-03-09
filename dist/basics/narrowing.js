@@ -1,6 +1,4 @@
-"use strict";
 // Type Narrowing Example
-Object.defineProperty(exports, "__esModule", { value: true });
 function printValue(value) {
     if (typeof value === "string") {
         console.log("String length:", value.length);
@@ -11,4 +9,5 @@ function printValue(value) {
 }
 printValue("TypeScript");
 printValue(50);
+export {};
 //# sourceMappingURL=narrowing.js.map

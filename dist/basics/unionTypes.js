@@ -1,6 +1,4 @@
-"use strict";
 // Union Types
-Object.defineProperty(exports, "__esModule", { value: true });
 let userId;
 userId = 101;
 console.log("User ID:", userId);
@@ -12,4 +10,5 @@ function printId(id) {
 }
 printId(123);
 printId("ABC123");
+export {};
 //# sourceMappingURL=unionTypes.js.map

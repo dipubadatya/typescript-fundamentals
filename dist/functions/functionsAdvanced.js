@@ -1,6 +1,4 @@
-"use strict";
 // Function with default parameter
-Object.defineProperty(exports, "__esModule", { value: true });
 function createUser(name, age = 18) {
     return `${name} is ${age} years old`;
 }
@@ -22,4 +20,5 @@ const addNumbers = (a, b) => {
     return a + b;
 };
 console.log(addNumbers(5, 7));
+export {};
 //# sourceMappingURL=functionsAdvanced.js.map

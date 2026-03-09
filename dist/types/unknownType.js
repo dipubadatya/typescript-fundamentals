@@ -1,8 +1,7 @@
-"use strict";
 // unknown type
-Object.defineProperty(exports, "__esModule", { value: true });
 let value = "Hello TypeScript";
 if (typeof value === "string") {
     console.log(value.toUpperCase());
 }
+export {};
 //# sourceMappingURL=unknownType.js.map

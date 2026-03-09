@@ -1,95 +1,114 @@
+
+
 # TypeScript Learning Journey
 
-This repository documents my journey of learning TypeScript and practicing its core concepts through small examples and exercises.
+I started learning TypeScript to write better, more reliable JavaScript. This repo is where I keep track of everything I learn — notes, code snippets, and small practice files.
+
+Nothing fancy. Just consistent practice.
 
 ---
 
-# 05 March 2026
+## Why TypeScript?
 
-### Topics Covered
+I got tired of runtime bugs that could have been caught earlier. TypeScript fixes that. It also makes code easier to read and refactor, especially as projects grow.
 
-- Basic Types
-- Functions with Type Annotations
-- Union Types
-- Type Narrowing
-
-### Practice Files
-
-```
-basicTypes.ts
-functions.ts
-unionTypes.ts
-narrowing.ts
-```
-
-### What I Learned
-
-- Learned how to use basic TypeScript type annotations.
-- Practiced defining types for function parameters and return values.
-- Understood how **Union Types** allow variables to hold multiple types.
-- Used **type narrowing with `typeof`** to safely work with union types.
+That's reason enough for me.
 
 ---
 
-# 06 March 2026
-
-### Topics Covered
-
-- `any` type
-- `unknown` type
-- `void` type
-- `never` type
-- Type Assertions
-
-### Practice Files
+## What's Inside
 
 ```
-any.ts
-unknown.ts
-void.ts
-never.ts
-typeAssertions.ts
+typescript-fundamentals/
+│
+├── basics/
+│   ├── basicTypes.ts
+│   ├── unionTypes.ts
+│   └── narrowing.ts
+│
+├── functions/
+│   ├── functions.ts
+│   └── functionsAdvanced.ts
+│
+├── data-structures/
+│   ├── arrays.ts
+│   ├── tuples.ts
+│   ├── enums.ts
+│   └── objects.ts
+│
+├── types/
+│   ├── any.ts
+│   ├── unknown.ts
+│   ├── void.ts
+│   ├── never.ts
+│   ├── typeAssertions.ts
+│   ├── typeAliases.ts
+│   ├── interfaces.ts
+│   ├── interfaceVsType.ts
+│   └── generics.ts
+│
+├── api/
+│   ├── apiTypes.ts
+│   └── typedApiCall.ts
+│
+└── README.md
 ```
-
-### What I Learned
-
-- Understood the difference between **`any` and `unknown`**, and why `unknown` is safer in most cases.
-- Learned how **`void`** is used in functions that do not return a value.
-- Explored the **`never`** type for functions that never complete normally (such as errors or infinite loops).
-- Practiced **Type Assertions** to explicitly tell TypeScript the type of a value when the compiler cannot infer it.
 
 ---
 
-# 07 March 2026
+## Daily Log
 
-### Topics Covered
+### Day 1 — 05 March 2026
 
-- Objects in TypeScript
-- Arrays
-- Tuples
-- Enums
-- Functions (advanced usage)
+**Covered:** Basic types, function annotations, union types, type narrowing
 
-### Practice Files
+Started with the fundamentals. Annotated variables, function params, return types. Union types were straightforward but narrowing with `typeof` took a couple of tries to click.
 
-```
-objects.ts
-arrays.ts
-tuples.ts
-enums.ts
-functionsAdvanced.ts
-```
-
-### What I Learned
-
-- How to define strict object shapes using TypeScript.
-- How arrays can enforce a specific data type.
-- The difference between arrays and tuples.
-- How enums help represent fixed sets of values.
-- How functions can have default parameters, optional parameters, and typed return values.
+**Files:** `basicTypes.ts` `functions.ts` `unionTypes.ts` `narrowing.ts`
 
 ---
 
-## Goal
+### Day 2 — 06 March 2026
 
-Practice TypeScript concepts daily and strengthen type-safe JavaScript development skills.
+**Covered:** `any`, `unknown`, `void`, `never`, type assertions
+
+Big takeaway — stop using `any`. `unknown` does the same job but forces you to check the type before using it. Also learned that `never` isn't just theoretical — it's useful for exhaustive switch cases and functions that always throw.
+
+**Files:** `any.ts` `unknown.ts` `void.ts` `never.ts` `typeAssertions.ts`
+
+---
+
+### Day 3 — 07 March 2026
+
+**Covered:** Objects, arrays, tuples, enums, optional/default params
+
+Tuples confused me at first — they look like arrays but the order and length matter. Enums are clean for representing fixed options like roles or statuses. Also practiced optional and default parameters in functions.
+
+**Files:** `objects.ts` `arrays.ts` `tuples.ts` `enums.ts` `functionsAdvanced.ts`
+
+---
+
+### Day 4 — 09 March 2026
+
+**Covered:** Type aliases, interfaces, generics, typed API calls
+
+This was a big day. Interfaces and type aliases overlap a lot, but interfaces are better when you need to extend or merge. Generics clicked when I thought of them as "type parameters" — same idea as function parameters but for types. Also made my first typed API call.
+
+**Files:** `typeAliases.ts` `interfaces.ts` `interfaceVsType.ts` `generics.ts` `apiTypes.ts` `typedApiCall.ts`
+
+---
+
+
+
+
+
+
+
+## About
+
+If you're learning TypeScript too — fork it, use it, or just do your own thing. The best notes are the ones you write yourself.
+
+---
+
+**Started:** 05 March 2026
+**Status:** Actively learning

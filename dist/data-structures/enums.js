@@ -1,6 +1,4 @@
-"use strict";
 // Enum example
-Object.defineProperty(exports, "__esModule", { value: true });
 var OrderStatus;
 (function (OrderStatus) {
     OrderStatus[OrderStatus["Pending"] = 0] = "Pending";
@@ -18,4 +16,5 @@ function checkStatus(status) {
     }
 }
 checkStatus(order);
+export {};
 //# sourceMappingURL=enums.js.map

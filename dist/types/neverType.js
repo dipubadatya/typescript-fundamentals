@@ -1,6 +1,4 @@
-"use strict";
 // never type
-Object.defineProperty(exports, "__esModule", { value: true });
 function throwError(message) {
     throw new Error(message);
 }
@@ -8,4 +6,5 @@ function throwError(message) {
 function infiniteLoop() {
     while (true) { }
 }
+export {};
 //# sourceMappingURL=neverType.js.map

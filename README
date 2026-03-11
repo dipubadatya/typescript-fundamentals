@@ -1,22 +1,16 @@
-# TypeScript Learning Journey
-
+TypeScript Learning Journey
 I started learning TypeScript to improve how I write JavaScript. This repository is where I keep track of what I'm learning — small practice files, notes, and experiments while working through the fundamentals.
 
 This isn't meant to be a polished project. It's simply a place where I document my learning and practice consistently.
 
----
-
-## Why TypeScript?
-
+Why TypeScript?
 While building JavaScript projects, I often ran into bugs caused by simple mistakes that could have been caught earlier. TypeScript helps by adding types and better tooling, which makes code easier to understand and maintain.
 
 I'm learning it so I can write more reliable code and use it in my future React projects.
 
----
+What's Inside
+text
 
-## What's Inside
-
-```
 typescript-fundamentals/
 │
 ├── basics/
@@ -56,67 +50,47 @@ typescript-fundamentals/
 │   └── userTypes.ts
 │
 └── README.md
-```
 
----
+Learning Log
+Day 1 — March 5, 2025
+Topics: Basic types, function annotations, union types, type narrowing
 
-## Daily Log
+Started with basic TypeScript syntax and type annotations. Practiced typing variables, function parameters, and return values. Also learned how union types work and how typeof helps narrow types.
 
-### Day 1 — 05 March 2026
+Files: basicTypes.ts, functions.ts, unionTypes.ts, narrowing.ts
 
-**Covered:** Basic types, function annotations, union types, type narrowing
+Day 2 — March 6, 2025
+Topics: any, unknown, void, never, type assertions
 
-Started with the basic TypeScript syntax and type annotations. Practiced typing variables, function parameters, and return values. Also learned how union types work and how `typeof` can help narrow types.
+Learned about different special types. One important takeaway was understanding why any should be avoided when possible and how unknown forces safer type checks. Also explored void, never, and basic type assertions.
 
-**Files:** `basicTypes.ts` `functions.ts` `unionTypes.ts` `narrowing.ts`
+Files: any.ts, unknown.ts, void.ts, never.ts, typeAssertions.ts
 
----
-
-### Day 2 — 06 March 2026
-
-**Covered:** `any`, `unknown`, `void`, `never`, type assertions
-
-Learned about different special types. One important takeaway was understanding why `any` should be avoided when possible and how `unknown` forces safer type checks. Also explored `void`, `never`, and basic type assertions.
-
-**Files:** `any.ts` `unknown.ts` `void.ts` `never.ts` `typeAssertions.ts`
-
----
-
-### Day 3 — 07 March 2026
-
-**Covered:** Objects, arrays, tuples, enums, optional/default params
+Day 3 — March 7, 2025
+Topics: Objects, arrays, tuples, enums, optional/default params
 
 Practiced defining types for objects and arrays. Tuples were a bit confusing at first since they look like arrays but enforce a fixed structure. Also experimented with enums and optional function parameters.
 
-**Files:** `objects.ts` `arrays.ts` `tuples.ts` `enums.ts` `functionsAdvanced.ts`
+Files: objects.ts, arrays.ts, tuples.ts, enums.ts, functionsAdvanced.ts
 
----
-
-### Day 4 — 09 March 2026
-
-**Covered:** Type aliases, interfaces, generics, typed API calls
+Day 4 — March 9, 2025
+Topics: Type aliases, interfaces, generics, typed API calls
 
 Learned how type aliases and interfaces help organize complex types. Generics took some time to understand but made more sense when thinking of them as reusable type parameters. Also tried making a typed API request.
 
-**Files:** `typeAliases.ts` `interfaces.ts` `interfaceVsType.ts` `generics.ts` `apiTypes.ts` `typedApiCall.ts`
+Files: typeAliases.ts, interfaces.ts, interfaceVsType.ts, generics.ts, apiTypes.ts, typedApiCall.ts
 
----
+Day 5 — March 11, 2025
+Topics: Using TypeScript with React components
 
-### Day 5 — 11 March 2026
-
-**Covered:** Using TypeScript with React components
-
-Applied some of the fundamentals in a small React example. Created an interface for product data coming from an API, typed the component state, and built a small generic `useFetch` hook. Also tried utility types like `Pick`, `Partial`, and `Omit` while shaping object types.
+Applied some of the fundamentals in a small React example. Created an interface for product data coming from an API, typed the component state, and built a small generic useFetch hook. Also tried utility types like Pick, Partial, and Omit while shaping object types.
 
 This helped me see how the TypeScript concepts actually apply in real components.
 
-**Files:** `ProductList.tsx` `useFetch.ts` `StatusBanner.tsx` `userTypes.ts`
+Files: ProductList.tsx, useFetch.ts, StatusBanner.tsx, userTypes.ts
 
----
 
-## About
 
+About
 If you're also learning TypeScript, feel free to explore the examples. These files are mostly simple experiments while I learn and practice.
-
----
 

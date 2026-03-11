@@ -1,18 +1,16 @@
-
-
 # TypeScript Learning Journey
 
-I started learning TypeScript to write better, more reliable JavaScript. This repo is where I keep track of everything I learn — notes, code snippets, and small practice files.
+I started learning TypeScript to improve how I write JavaScript. This repository is where I keep track of what I'm learning — small practice files, notes, and experiments while working through the fundamentals.
 
-Nothing fancy. Just consistent practice.
+This isn't meant to be a polished project. It's simply a place where I document my learning and practice consistently.
 
 ---
 
 ## Why TypeScript?
 
-I got tired of runtime bugs that could have been caught earlier. TypeScript fixes that. It also makes code easier to read and refactor, especially as projects grow.
+While building JavaScript projects, I often ran into bugs caused by simple mistakes that could have been caught earlier. TypeScript helps by adding types and better tooling, which makes code easier to understand and maintain.
 
-That's reason enough for me.
+I'm learning it so I can write more reliable code and use it in my future React projects.
 
 ---
 
@@ -51,6 +49,12 @@ typescript-fundamentals/
 │   ├── apiTypes.ts
 │   └── typedApiCall.ts
 │
+├── react/
+│   ├── ProductList.tsx
+│   ├── useFetch.ts
+│   ├── StatusBanner.tsx
+│   └── userTypes.ts
+│
 └── README.md
 ```
 
@@ -62,7 +66,7 @@ typescript-fundamentals/
 
 **Covered:** Basic types, function annotations, union types, type narrowing
 
-Started with the fundamentals. Annotated variables, function params, return types. Union types were straightforward but narrowing with `typeof` took a couple of tries to click.
+Started with the basic TypeScript syntax and type annotations. Practiced typing variables, function parameters, and return values. Also learned how union types work and how `typeof` can help narrow types.
 
 **Files:** `basicTypes.ts` `functions.ts` `unionTypes.ts` `narrowing.ts`
 
@@ -72,7 +76,7 @@ Started with the fundamentals. Annotated variables, function params, return type
 
 **Covered:** `any`, `unknown`, `void`, `never`, type assertions
 
-Big takeaway — stop using `any`. `unknown` does the same job but forces you to check the type before using it. Also learned that `never` isn't just theoretical — it's useful for exhaustive switch cases and functions that always throw.
+Learned about different special types. One important takeaway was understanding why `any` should be avoided when possible and how `unknown` forces safer type checks. Also explored `void`, `never`, and basic type assertions.
 
 **Files:** `any.ts` `unknown.ts` `void.ts` `never.ts` `typeAssertions.ts`
 
@@ -82,7 +86,7 @@ Big takeaway — stop using `any`. `unknown` does the same job but forces you to
 
 **Covered:** Objects, arrays, tuples, enums, optional/default params
 
-Tuples confused me at first — they look like arrays but the order and length matter. Enums are clean for representing fixed options like roles or statuses. Also practiced optional and default parameters in functions.
+Practiced defining types for objects and arrays. Tuples were a bit confusing at first since they look like arrays but enforce a fixed structure. Also experimented with enums and optional function parameters.
 
 **Files:** `objects.ts` `arrays.ts` `tuples.ts` `enums.ts` `functionsAdvanced.ts`
 
@@ -92,23 +96,27 @@ Tuples confused me at first — they look like arrays but the order and length m
 
 **Covered:** Type aliases, interfaces, generics, typed API calls
 
-This was a big day. Interfaces and type aliases overlap a lot, but interfaces are better when you need to extend or merge. Generics clicked when I thought of them as "type parameters" — same idea as function parameters but for types. Also made my first typed API call.
+Learned how type aliases and interfaces help organize complex types. Generics took some time to understand but made more sense when thinking of them as reusable type parameters. Also tried making a typed API request.
 
 **Files:** `typeAliases.ts` `interfaces.ts` `interfaceVsType.ts` `generics.ts` `apiTypes.ts` `typedApiCall.ts`
 
 ---
 
+### Day 5 — 11 March 2026
 
+**Covered:** Using TypeScript with React components
 
+Applied some of the fundamentals in a small React example. Created an interface for product data coming from an API, typed the component state, and built a small generic `useFetch` hook. Also tried utility types like `Pick`, `Partial`, and `Omit` while shaping object types.
 
+This helped me see how the TypeScript concepts actually apply in real components.
 
-
-
-## About
-
-If you're learning TypeScript too — fork it, use it, or just do your own thing. The best notes are the ones you write yourself.
+**Files:** `ProductList.tsx` `useFetch.ts` `StatusBanner.tsx` `userTypes.ts`
 
 ---
 
-**Started:** 05 March 2026
-**Status:** Actively learning
+## About
+
+If you're also learning TypeScript, feel free to explore the examples. These files are mostly simple experiments while I learn and practice.
+
+---
+
